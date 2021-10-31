@@ -1,0 +1,308 @@
+ideologies = {
+	
+	natsbol = {
+	
+		types = {
+			
+			natsbol_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATSBOL_1"
+			"FACTION_NAME_NATSBOL_2"
+			"FACTION_NAME_NATSBOL_3"
+		}
+		
+		color = { 132 0 0 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			stability_factor = 0.1			
+			political_power_factor = 0.1
+			command_power_factor = 0.05
+			war_support_factor = 0.05
+			production_factory_max_efficiency_factor = -0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_start_efficiency_factor = -0.05
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_natsbol = yes # uses the democratic AI behaviour
+	}
+	
+	leftliberalism = {
+	
+		types = {
+
+			radicallesbian = {
+			}
+			
+			navalnism = {
+			}
+
+			leftliberalism_ideology = {
+			}
+			
+			feminism = {
+			}
+		
+			liberastia = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LEFTLIBERALISM_1"
+			"FACTION_NAME_LEFTLIBERALISM_2"
+			"FACTION_NAME_LEFTLIBERALISM_3"
+			"FACTION_NAME_LEFTLIBERALISM_4"
+		}
+		
+		color = { 0 252 255 }
+
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			research_speed_factor = -0.05
+			stability_factor = -0.1
+			political_power_factor = 0.05
+			war_support_factor = 0.1
+		}
+		
+		faction_modifiers = {
+		}
+		ai_leftliberalism = yes # uses the classliberalism AI behaviour
+	}
+	
+	centrism = {
+	
+		types = {
+			centrism_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CENTRISM_1"
+		}
+		
+		color = { 255 255 255 }
+
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+		}
+		ai_centrism = yes # uses the centrism AI behaviour
+	}
+
+	marxism = {
+		
+		types = {
+		
+			leninism = {
+			}
+			
+			maoism = {
+			}
+			
+			stalinism = {
+			}
+			
+			khrushchevism = {
+			}
+			
+			anti_revisionism = {
+			}
+			
+			anarchist_communism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_MARXISM_1"
+			"FACTION_NAME_MARXISM_2"
+			"FACTION_NAME_MARXISM_3"
+			"FACTION_NAME_MARXISM_4"
+			"FACTION_NAME_MARXISM_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			stability_factor = 0.1
+			political_power_factor = 0.1
+			command_power_factor = 0.05
+			production_factory_max_efficiency_factor = -0.1
+			production_factory_efficiency_gain_factor = -0.1
+			production_factory_start_efficiency_factor = -0.05
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_marxism = yes # uses the commie AI behaviour
+
+	}
+
+	fascismm = {
+	
+		types = {
+		
+			nazism = {
+			}
+			
+			fascismm_ideology = {
+			}
+			
+			falangism = {
+			}
+			
+			rexism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCISMM_1"
+			"FACTION_NAME_FASCISMM_2"
+			"FACTION_NAME_FASCISMM_3"
+			"FACTION_NAME_FASCISMM_4"
+			"FACTION_NAME_FASCISMM_5"
+		}
+		
+		color = { 150 75 0 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			stability_factor = 0.1
+			political_power_factor = 0.1
+			war_support_factor = 0.1
+			command_power_factor = 0.05
+			production_factory_max_efficiency_factor = -0.15
+			production_factory_efficiency_gain_factor = -0.1
+			production_factory_start_efficiency_factor = -0.1
+		}
+		
+		faction_modifiers = {
+		}
+		ai_fascismm = yes # uses the classliberalism AI behaviour
+
+	}
+	
+	classliberalism = {
+	
+		types = {
+			
+			classliberalism_ideology = {
+			}
+		
+			putinism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CLASSLIBERALISM_1"
+			"FACTION_NAME_CLASSLIBERALISM_2"
+		}
+		
+		color = { 0 0 139 }
+
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			production_factory_max_efficiency_factor = 0.1
+			research_speed_factor = 0.05
+			stability_factor = -0.1
+			political_power_factor = -0.05
+		}
+		
+		faction_modifiers = {
+		}
+		ai_classliberalism = yes # uses the classliberalism AI behaviour
+	}
+}
