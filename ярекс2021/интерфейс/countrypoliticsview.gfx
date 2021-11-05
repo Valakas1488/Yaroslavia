@@ -251,6 +251,11 @@ spriteTypes = {
 		name = "GFX_idea_slot_industrial_concern"
 		textureFile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_newyarex"
+		textureFile = "gfx/interface/newyarex.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_slot_materiel_manufacturer"
