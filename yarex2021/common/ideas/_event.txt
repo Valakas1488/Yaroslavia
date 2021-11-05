@@ -1,18 +1,18 @@
 ideas = {
 
 	country = {
-		fascist_assault_divisions = {
+		fascismm_assault_divisions = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascismm_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.05
 				conscription = 0.002
-				fascism_drift = 0.05
+				fascismm_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -20,17 +20,53 @@ ideas = {
 			}
 		}
 	
-		communist_partisans_recruiting = {
+		marxism_partisans_recruiting = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_communism_drift_bonus
+			picture = generic_marxism_drift_bonus
 			
 			modifier = {
 				conscription = -0.002
-				communism_drift = 0.05
+				marxism_drift = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		natsbol_partisans_recruiting = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_natsbol_drift_bonus
+			
+			modifier = {
+				conscription = -0.002
+				natsbol_drift = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		centrism_partisans_recruiting = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_centrism_drift_bonus
+			
+			modifier = {
+				conscription = -0.002
+				centrism_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -38,17 +74,35 @@ ideas = {
 			}
 		}
 	
-		democratic_opposition_voicing_protests = {
+		classliberalism_opposition_voicing_protests = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_classliberalism_drift_bonus
 			
 			modifier = {
 				political_power_factor = -0.5
-				democratic_drift = 0.05
+				classliberalism_drift = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		leftliberalism_opposition_voicing_protests = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_leftliberalism_drift_bonus
+			
+			modifier = {
+				political_power_factor = -0.5
+				leftliberalism_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -56,7 +110,7 @@ ideas = {
 			}
 		}
 
-		fascist_revolutionaries = {
+		fascismm_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -64,14 +118,14 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascismm_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.1
 			}
 		}
 
-		communist_revolutionaries = {
+		marxism_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -79,14 +133,14 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_communism_drift_bonus
+			picture = generic_marxism_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.1
 			}
 		}
 
-		democratic_revolutionaries = {
+		classliberalism_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -94,36 +148,136 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_classliberalism_drift_bonus
+			
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+		
+		centrism_revolutionaries = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_centrism_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.1
 			}
 		}
 
-
-		fascism_defeated = {
+		natsbol_revolutionaries = {
+			
 			removal_cost = -1
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_natsbol_drift_bonus
+			
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+
+		leftliberalism_revolutionaries = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_leftliberalism_drift_bonus
+			
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+
+		fascismm_defeated = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_classliberalism_drift_bonus
 			
 			modifier = {
 				stability_factor = 0.1
 			}
 		}
 
-		communism_defeated = {
+		marxism_defeated = {
 			removal_cost = -1
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_classliberalism_drift_bonus
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+		
+		classliberalism_defeated = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_classliberalism_drift_bonus
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		leftliberalism_defeated = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_classliberalism_drift_bonus
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+		
+		natsbol_defeated = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_classliberalism_drift_bonus
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		centrism_defeated = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_classliberalism_drift_bonus
 			
 			modifier = {
 				stability_factor = 0.1
@@ -144,59 +298,6 @@ ideas = {
 				stability_weekly = 0.005
 			}
 		}
-
-		anti_soviet_pact = {
-			
-			removal_cost = -1 # Or make removable, with high cost?
-
-			available = {
-				is_subject = no
-			}
-			
-			allowed = {
-				always = no # Triggered via event
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-
-			picture = anti_soviet_pact
-		}
-
-		anti_soviet_pact_refused_call = {
-
-			picture = generic_communism_drift_bonus
-			
-			removal_cost = -1 # Or make removable, with high cost?
-			
-			allowed = {
-				always = no # Triggered via event
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-
-			modifier = {
-				stability_factor = -0.1
-				communism_drift = 0.05
-			}
-		}
-
-		anti_nazi_coup = {			
-			
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-
-			picture = generic_democratic_drift_bonus
-			
-			modifier = {
-				fascism_acceptance = -50
-			}
-		}
 		
 		shattered_government = {
 			
@@ -205,7 +306,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = generic_democratic_drift_bonus
+			picture = generic_classliberalism_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.1
