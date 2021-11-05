@@ -1,5 +1,9 @@
 #reload countrycolors
 
+BYD = {
+	color = rgb { 132 0 119 }
+	color_ui = rgb { 6  126  0 }
+}
 YAR = {
 	color = rgb { 1  230  0 }
 	color_ui = rgb { 6  126  0 }
