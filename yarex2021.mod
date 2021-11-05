@@ -6,4 +6,4 @@ tags={
 	"Alternative History"
 	"Fixes"
 }
-supported_version="1.7.0"
+supported_version="1.10.*"
