@@ -1,0 +1,23 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 500000
+	
+	state_category = town
+
+	history={
+		owner = YAR
+		victory_points = {
+			371 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YAR
+	}
+
+	provinces={
+		288 315 343 371 11229 11298 11325
+	}
+}

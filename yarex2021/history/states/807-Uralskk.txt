@@ -1,0 +1,23 @@
+state={
+	id=807
+	name="STATE_407"
+
+	history={
+		owner = YAR
+		add_core_of = YAR
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			11537 1
+		}
+	}
+
+	provinces={
+		3404 11537 
+	}
+	manpower=134286
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
