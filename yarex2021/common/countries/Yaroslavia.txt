@@ -1,6 +1,0 @@
-
-
-graphucal_culture = eastern_european_gfx
-graphucal_culture_2d = eastern_european_2d
-
-color = { 11 230 0 }

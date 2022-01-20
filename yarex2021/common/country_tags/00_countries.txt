@@ -1,2 +1,0 @@
-YAR	= "countries/Yaroslavia.txt"
-BYD = "countries/Bydlostan.txt"
